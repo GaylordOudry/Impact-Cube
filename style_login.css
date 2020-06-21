@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800|Muli:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Dosis';
+}
+
+h1 {
+    font-size: 30pt;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+}
+
+header > figure {
+    margin: 0;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85vh;
+}
+
+section {
+    background-color: #f1fffecb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(85%/2);
+    height: 60vh;
+    border: solid 1px white;
+    border-radius: 70px;
+    box-shadow: -3px 5px 8px rgba(13, 12, 12, 0.38);
+}
+
+section:nth-child(1) {
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Muli';
+    font-size: 20pt;
+}
+
+section:nth-child(2) {
+    flex-direction: column;
+}
+
+p {
+    padding: 50px;
+}
+
+#active {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 10vh;
+    border-radius: 100px;
+    box-shadow: -1px 2px 7px rgba(13, 12, 12, 0.59);
+    margin-bottom: 20px;
+}
+
+article > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(90%/2);
+    height: 60%;
+    text-align: center;
+    border-radius: 25px;
+}
+
+article > div:nth-child(1) {
+    background-color: #6699cc;
+    box-shadow: -1px 2px 7px rgba(13, 12, 12, 0.38);
+}
+
+form {
+    font-family: 'Muli';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 80%;
+    border-radius: 50px;
+    box-shadow: -1px 2px 7px rgba(13, 12, 12, 0.59);
+    background-color: #6699cc;
+}
+
+form > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+form > article {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+form > article > p {
+    padding: 0;
+}
+
+
+label {
+    width: 125px;
+}
+
+input[type="mail"], input[type="password"] {
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+    border: none;
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 20px;
+    border: none;
+    padding: 0;
+    margin-top: 10px;
+}
